@@ -3,4 +3,4 @@
             [cam]))
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? cam))))
+    (is (some? (find-ns 'cam)))))
