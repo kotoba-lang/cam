@@ -10,7 +10,7 @@
 
 (deftest namespace-loads
   (testing "the cam namespace and its three submodules all load"
-    (is (some? (the-ns 'cam)))
-    (is (some? (the-ns 'cam.follow)))
-    (is (some? (the-ns 'cam.look-constraint)))
-    (is (some? (the-ns 'cam.shake)))))
+    (is (some? (find-ns 'cam)))
+    (is (some? (find-ns 'cam.follow)))
+    (is (some? (find-ns 'cam.look-constraint)))
+    (is (some? (find-ns 'cam.shake)))))
