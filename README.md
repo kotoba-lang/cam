@@ -95,7 +95,7 @@ library.
 ## Status
 
 New implementation, complete for the three capabilities named above.
-`clojure -M:test`: **17 tests, 37 assertions, 0 failures, 0 errors.**
+`kbb -M:test`: **17 tests, 37 assertions, 0 failures, 0 errors.**
 
 Not implemented (out of scope for this pass, no existing spec to match
 against since there's no legacy source): multi-target/weighted follow,
@@ -106,7 +106,7 @@ Perlin/simplex.
 ## Develop
 
 ```bash
-clojure -M:test
+kbb -M:test
 ```
 
 ## License
