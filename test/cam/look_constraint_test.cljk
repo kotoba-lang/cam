@@ -1,5 +1,5 @@
 (ns cam.look-constraint-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [cam.look-constraint :as lc]))
 
 (defn- close? [a b eps] (< (Math/abs (- a b)) eps))

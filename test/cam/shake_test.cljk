@@ -1,5 +1,5 @@
 (ns cam.shake-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [cam.shake :as shake]))
 
 (deftest shake-config-shape
